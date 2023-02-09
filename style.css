@@ -1,0 +1,89 @@
+header {
+    display: flex;
+    color: white;
+    justify-content: right;
+    padding: 10px 20px;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 25px;
+}
+
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: black;
+    padding: 500px 100px;
+    text-align: right;
+    text-decoration: none;
+  }
+
+  nav li a:hover{
+    color:white;
+    transition: all 0.4s ease 0s;
+  }
+img {
+    display: block;
+    float: right;
+    position: relative;
+    top: -8px;
+}
+
+
+
+.top-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+body {
+    background-color:rgb(234, 225, 215);
+  }
+
+.center {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+    font-size: 28px;
+    text-align: right;
+  }
+
+.stats__count {
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 8.4rem;
+    line-height: 1;
+    color: #FFFFFF;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#myButton {
+  background:linear-gradient(90deg, #E18232 -24.63%, #B65A0E 73.21%, #A4500A 184.78%);
+  /* color: white; */
+  /* padding: 15px 32px; */
+  width: 190px;
+  height: 50px;
+  display: block;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  font-size: 24px;
+  margin:0px;
+  cursor: pointer;
+  transition: color 0.4s linear;
+  position: absolute;
+  bottom: 120px;
+  left: 530px;
+  transform: translateX(-50%);
+}
